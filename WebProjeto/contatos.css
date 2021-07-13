@@ -1,0 +1,108 @@
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(./imagens/contatos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modo{ 
+    display: flex;
+}
+
+.menu-esquerdo{
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    height: 100vh;
+    background-color: #8f62ad;
+    justify-content: space-around;
+    padding: 2rem;
+    color: #25bd8a;
+    z-index: 0;
+    align-items: center;
+}
+
+
+
+.foto-perfil{
+    border-radius: 40%;
+    margin-bottom: 1rem;
+    min-width: 250px;
+    max-height: 250px;
+    height: auto;
+    width: auto;
+
+}
+.topo{
+    position: fixed;
+    top: 0;
+    left: 17%;
+    width: 85%;
+    height: 6vh;
+    background-color: #000000;
+    color: #ff0202;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+.main{
+    position: relative;
+    left: 16.1%;
+    margin: 1rem;
+    color: #ff00ff;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.section{ 
+    display: flex;
+    align-items: baseline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-top: 5rem;
+    max-width: 75rem;
+    opacity: 100%;
+    position: fixed;
+
+}
+
+.gitfoto{
+    border-radius: 40%;
+} 
+.gmail{
+    border-radius: 40%; 
+}
+.fototelefone{
+    border-radius: 40%;
+}
+ 
+@media screen and (max-width: 1400px) {
+    #html, body{
+        zoom: 67%;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    #html, body {
+        font-size: 85%;
+    }
+}
